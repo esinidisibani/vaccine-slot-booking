@@ -1,0 +1,44 @@
+body{
+    background-image: url(img4.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 660px;
+    padding: 10% 0 0 0 0 0 0 0 0;
+    margin: auto;
+}
+.form-group{
+      position: relative;
+      z-index: 1;
+      background: grey;
+      max-width: 560px;
+      margin: 0 auto 100px;
+      padding: 45px;
+      text-align: center;
+	opacity: 0.90;
+}
+.form-group input{
+    font-family: "Roboto",sans-serif;
+    outline: 1;
+    background: white;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form-group button{
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background:red;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
